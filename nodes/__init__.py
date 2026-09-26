@@ -1,6 +1,12 @@
-from .count_tags import NODE_CLASS_MAPPINGS, NODE_DISPLAY_NAME_MAPPINGS
+from .count_tags import CountTags
+from .remove_tag_suffixes import RemoveTagSuffixes
 
-__all__ = [
-    "NODE_CLASS_MAPPINGS",
-    "NODE_DISPLAY_NAME_MAPPINGS",
-]
+NODE_CLASS_MAPPINGS = {
+    "CountTags": CountTags,
+    "RemoveTagSuffixes": RemoveTagSuffixes,
+}
+
+NODE_DISPLAY_NAME_MAPPINGS = {
+    "CountTags": "Count Tags",
+    "RemoveTagSuffixes": "Remove Tag Suffixes",
+}

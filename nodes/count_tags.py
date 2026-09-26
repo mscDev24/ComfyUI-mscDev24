@@ -4,8 +4,9 @@ class CountTags:
     """
 
     DESCRIPTION = (
-        "Counts non-empty elements in a string separated by the specified delimiter. "
-        "Whitespace around elements is ignored and empty elements are not counted."
+        "Counts non-empty elements in a string separated by the specified "
+        "delimiter. Whitespace around elements is ignored and empty elements "
+        "are not counted."
     )
 
     @classmethod
